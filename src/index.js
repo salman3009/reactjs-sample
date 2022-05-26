@@ -5,10 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+root.render(  
     <App />
-  </React.StrictMode>
+    //self closing tag is compulsory
+    //First letter you need to start with capital
 );
 
 // If you want to start measuring performance in your app, pass a function
