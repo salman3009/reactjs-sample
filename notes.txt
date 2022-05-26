@@ -1,0 +1,40 @@
+1.npx create-react-app my-app -----------> the latest version available in market
+
+2.npm install create-react-app@13 ------------> you can install previous version
+create-react-app my-app
+============================================================
+README.md -------------> documentation file
+package.json -------------> configuration file 
+18.4.4 -------->18 Major version // 4--> minor version // 4---> patch version 
+node-modules ---> all packages code will be present here.
+src---------->index.js ------------------> app.js 
+============================================================
+Step1: To write functional component 
+function App(){
+
+}
+
+export default App;
+
+App.js 
+
+
+function App(){
+   return (<div>
+     {2+2}
+     <br/>
+     {"salman"}
+     <br/>
+     {true}{false}
+     <br/>
+     {2>5?"yes":"no"}
+     <br/>
+     {2>1 && 2<5 && "success"}
+     <br/>
+     {"record" || "yes"}
+     <p>Hello world</p>
+     <input type="text"/>
+   </div>)
+}
+
+export default App;
