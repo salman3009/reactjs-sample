@@ -1,7 +1,7 @@
 
 import './Form.css';
 import {useState} from 'react';
-function Form(){
+function Form(props){
 
       const[getForm,setForm]  = useState({
                        fullName:'salman',
@@ -12,7 +12,7 @@ function Form(){
     
 
     const onSubmitHandler=()=>{
-        alert("submit");
+        props.callDetails(getForm.fullName,getForm.age);
     }
     
     const OnChangeHandler=(event)=>{
